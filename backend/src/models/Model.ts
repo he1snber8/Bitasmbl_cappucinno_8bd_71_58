@@ -9,4 +9,5 @@ interface SomeModel {
 interface CapucinnoBitch {
   milk: true;
   espresso: true;
+  latteArt: true;
 }
