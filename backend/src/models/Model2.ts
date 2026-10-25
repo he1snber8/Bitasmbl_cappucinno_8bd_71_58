@@ -28,4 +28,5 @@ interface GotTheseOtherBitchesShook {
   vavaviva4: string;
   mdso: number;
   badbitch: true;
+  whataboutus: string;
 }
