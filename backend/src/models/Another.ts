@@ -8,3 +8,7 @@ interface Daghestan {
   twothreeyears: true;
   brader: true;
 }
+interface Daghestan {
+  twothreeyears: true;
+  brader: true;
+}

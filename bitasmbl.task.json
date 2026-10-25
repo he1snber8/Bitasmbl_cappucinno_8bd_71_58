@@ -3,178 +3,15 @@
   "projectApplicationId": 71,
   "requirementId": 916,
   "files": [
-    "backend/src/models/Another.ts",
-    "backend/src/models/Model.ts"
+    "backend/src/models/Another.ts"
   ],
   "activityMeta": [
     {
-      "file": "backend/src/models/Model.ts",
-      "requirementId": 916,
-      "lastModified": "2026-10-25T16:41:20.577Z",
-      "activity": {
-        "idleBreaks": 3,
-        "intervalSamples": [
-          {
-            "interval": 0,
-            "diffStats": {
-              "linesAdded": 5,
-              "linesDeleted": 0
-            }
-          },
-          {
-            "diffStats": {
-              "linesAdded": 5,
-              "linesDeleted": 0
-            },
-            "interval": 29
-          },
-          {
-            "diffStats": {
-              "linesAdded": 6,
-              "linesDeleted": 0
-            },
-            "interval": 42
-          },
-          {
-            "diffStats": {
-              "linesAdded": 8,
-              "linesDeleted": 0
-            },
-            "interval": 30
-          },
-          {
-            "diffStats": {
-              "linesAdded": 8,
-              "linesDeleted": 0
-            },
-            "interval": 24
-          },
-          {
-            "diffStats": {
-              "linesAdded": 5,
-              "linesDeleted": 1
-            },
-            "interval": 545
-          },
-          {
-            "diffStats": {
-              "linesAdded": 4,
-              "linesDeleted": 0
-            },
-            "interval": 8
-          },
-          {
-            "diffStats": {
-              "linesAdded": 4,
-              "linesDeleted": 0
-            },
-            "interval": 9
-          },
-          {
-            "diffStats": {
-              "linesAdded": 4,
-              "linesDeleted": 0
-            },
-            "interval": 303
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 969
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 226
-          },
-          {
-            "diffStats": {
-              "linesAdded": 1,
-              "linesDeleted": 0
-            },
-            "interval": 10
-          },
-          {
-            "diffStats": {
-              "linesAdded": 1,
-              "linesDeleted": 0
-            },
-            "interval": 6
-          },
-          {
-            "diffStats": {
-              "linesAdded": 1,
-              "linesDeleted": 0
-            },
-            "interval": 13
-          },
-          {
-            "diffStats": {
-              "linesAdded": 1,
-              "linesDeleted": 0
-            },
-            "interval": 34
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 180
-          },
-          {
-            "diffStats": {
-              "linesAdded": 1,
-              "linesDeleted": 0
-            },
-            "interval": 9
-          },
-          {
-            "diffStats": {
-              "linesAdded": 1,
-              "linesDeleted": 0
-            },
-            "interval": 6
-          },
-          {
-            "diffStats": {
-              "linesAdded": 1,
-              "linesDeleted": 0
-            },
-            "interval": 9
-          },
-          {
-            "diffStats": {
-              "linesAdded": 1,
-              "linesDeleted": 0
-            },
-            "interval": 57
-          },
-          {
-            "diffStats": {
-              "linesAdded": 1,
-              "linesDeleted": 0
-            },
-            "interval": 5
-          }
-        ],
-        "medianEditIntervalSec": 24
-      },
-      "sourceHints": {
-        "possiblePaste": false,
-        "suspiciousJump": true
-      }
-    },
-    {
       "file": "backend/src/models/Another.ts",
       "requirementId": 916,
-      "lastModified": "2026-10-25T16:42:55.366Z",
+      "lastModified": "2026-10-25T16:52:04.193Z",
       "activity": {
-        "idleBreaks": 0,
+        "idleBreaks": 1,
         "intervalSamples": [
           {
             "interval": 0,
@@ -203,13 +40,34 @@
               "linesDeleted": 0
             },
             "interval": 39
+          },
+          {
+            "diffStats": {
+              "linesAdded": 10,
+              "linesDeleted": 0
+            },
+            "interval": 9
+          },
+          {
+            "diffStats": {
+              "linesAdded": 5,
+              "linesDeleted": 1
+            },
+            "interval": 529
+          },
+          {
+            "diffStats": {
+              "linesAdded": 4,
+              "linesDeleted": 0
+            },
+            "interval": 10
           }
         ],
-        "medianEditIntervalSec": 9
+        "medianEditIntervalSec": 10
       },
       "sourceHints": {
         "possiblePaste": false,
-        "suspiciousJump": false
+        "suspiciousJump": true
       }
     }
   ]
