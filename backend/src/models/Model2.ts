@@ -29,4 +29,5 @@ interface GotTheseOtherBitchesShook {
   mdso: number;
   badbitch: true;
   whataboutus: string;
+  onmyway: true;
 }
