@@ -25,4 +25,5 @@ interface GotTheseOtherBitchesShook {
   vavaviva: string;
   vavaviva2: string;
   vavaviva3: string;
+  vavaviva4: string;
 }
