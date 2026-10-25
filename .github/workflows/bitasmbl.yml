@@ -1,0 +1,186 @@
+
+name: Bitasmbl Validation
+on:
+  push:
+    branches:
+      - main
+jobs:
+  scaffold:
+    if: github.event.head_commit.message == 'bitasmbl:init'
+    runs-on: ubuntu-latest
+    environment: BITASMBL_ENV
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Scaffold Tech
+        shell: bash
+        run: |
+          mkdir -p backend
+          cd backend
+          npm init -y
+          cat > index.js <<'EOF'
+          const express = require("express");
+          
+          const app = express();
+          
+          app.get("/health", (_, res) => {
+            res.json({
+              status: "ok",
+              message: "Hello from Express"
+            });
+          });
+          
+          const PORT = process.env.PORT || 3000;
+          
+          app.listen(PORT, () => {
+            console.log(`Server running on port ${PORT}`);
+          });
+          EOF
+      - name: Commit scaffold
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add .
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "bitasmbl: scaffold project"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+      - name: Extract metadata from temp.json
+        id: meta
+        run: |
+          PROJECT_APPLICATION_LINKED_REPO_ID=$(jq -r '.ProjectApplicationLinkedRepoId' temp.json)
+          PROJECT_APPLICATION_ID=$(jq -r '.ProjectApplicationId' temp.json)
+          OWNER_ID=$(jq -r '.OwnerId' temp.json)
+
+          echo "project_application_linked_repo_id=$PROJECT_APPLICATION_LINKED_REPO_ID" >> $GITHUB_OUTPUT
+          echo "project_application_id=$PROJECT_APPLICATION_ID" >> $GITHUB_OUTPUT
+          echo "owner_id=$OWNER_ID" >> $GITHUB_OUTPUT
+      - name: Send repo set up completion notification
+        run: |
+          RESPONSE=$(curl -s \
+            -w "\n%{http_code}" \
+            -X PUT https://b496-176-221-143-53.ngrok-free.app/projects/application-repo-init-complete \
+            -H "Content-Type: application/json" \
+            -d @- <<EOF
+          {
+            "projectApplicationLinkedRepoId": ${{ steps.meta.outputs.project_application_linked_repo_id }},
+            "projectApplicationId": ${{ steps.meta.outputs.project_application_id }},
+            "ownerId": "${{ steps.meta.outputs.owner_id }}"
+          }
+          EOF
+          )
+
+          STATUS=$(echo "$RESPONSE" | tail -n1)
+          BODY=$(echo "$RESPONSE" | sed '$d')
+
+          echo "Response: $BODY"
+
+          if [ "$STATUS" -ne 200 ]; then
+            echo "::error::$BODY"
+            exit 1
+          fi
+  validate:
+    if: github.event.head_commit.message != 'bitasmbl:init'
+    environment: BITASMBL_ENV
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: Validate project
+        run: echo "Running Bitasmbl validation..."
+      - name: Verify Token Existence
+        run: |
+          if [ -z "${{ secrets.BITASMBL_TOKEN }}" ]; then
+            echo "TOKEN IS MISSING"
+          else
+            echo "TOKEN IS SET"
+          fi
+      - name: Check token validity
+        run: |
+          RESPONSE=$(curl -s \
+            -w "\n%{http_code}" \
+            -X POST https://b496-176-221-143-53.ngrok-free.app/users/check-token-validity \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.BITASMBL_TOKEN }}"\
+          )
+
+          BODY=$(echo "$RESPONSE" | sed '$d')
+          STATUS=$(echo "$RESPONSE" | tail -n1)
+
+          echo "Status: $STATUS"
+          echo "Response: $BODY"
+
+          if [ "$STATUS" -ne 200 ]; then
+            echo "::error::$BODY"
+            exit 1
+          fi
+      - name: Extract metadata from bitasmbl.task.json
+        id: meta
+        run: |
+          PROJECT_APPLICATION_LINKED_REPO_ID=$(jq -r '.projectApplicationLinkedRepoId' bitasmbl.task.json)
+          PROJECT_APPLICATION_ID=$(jq -r '.projectApplicationId' bitasmbl.task.json)
+          REQUIREMENT_ID=$(jq -r '.requirementId' bitasmbl.task.json)
+          ACTIVITY_DATA=$(jq -c '.activityMeta' bitasmbl.task.json)
+
+          echo "project_application_linked_repo_id=$PROJECT_APPLICATION_LINKED_REPO_ID" >> $GITHUB_OUTPUT
+          echo "project_application_id=$PROJECT_APPLICATION_ID" >> $GITHUB_OUTPUT
+          echo "requirement_id=$REQUIREMENT_ID" >> $GITHUB_OUTPUT
+
+          echo "activity_data<<EOF" >> $GITHUB_OUTPUT
+          echo "$ACTIVITY_DATA" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+      - name: Send to backend
+        env:
+          PROJECT_APPLICATION_LINKED_REPO_ID: ${{ steps.meta.outputs.project_application_linked_repo_id }}
+          PROJECT_APPLICATION_ID: ${{ steps.meta.outputs.project_application_id }}
+          REQUIREMENT_ID: ${{ steps.meta.outputs.requirement_id }}
+          ACTIVITY_META: ${{ steps.meta.outputs.activity_data }}
+          REPO: ${{ github.repository }}
+          BASE_SHA: ${{ github.event.before }}
+          COMMIT_SHA: ${{ github.sha }}
+          BITASMBL_TOKEN: ${{ secrets.BITASMBL_TOKEN }}
+        run: |
+          PAYLOAD=$(jq -n \
+            --arg projectApplicationLinkedRepoId "$PROJECT_APPLICATION_LINKED_REPO_ID" \
+            --arg projectApplicationId "$PROJECT_APPLICATION_ID" \
+            --arg requirementId "$REQUIREMENT_ID" \
+            --arg repo "$REPO" \
+            --arg baseSha "$BASE_SHA" \
+            --arg commitSha "$COMMIT_SHA" \
+            --arg diffs "$(git diff HEAD^ HEAD)" \
+            --arg activityMeta "$ACTIVITY_META" \
+            --arg githubAccessToken "$GITHUB_TOKEN" \
+            '{
+              projectApplicationLinkedRepoId: ($projectApplicationLinkedRepoId | tonumber),
+              projectApplicationId: ($projectApplicationId | tonumber),
+              requirementId: ($requirementId | tonumber),
+              repo: $repo,
+              baseSha: $baseSha,
+              commitSha: $commitSha,
+              diffs: $diffs,
+              activityMeta: ($activityMeta | fromjson),
+              githubAccessToken: $githubAccessToken
+            }'
+          )
+
+          RESPONSE=$(curl -s \
+            -w "\n%{http_code}" \
+            -X POST "https://b496-176-221-143-53.ngrok-free.app/projects/evaluate-project-units" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $BITASMBL_TOKEN" \
+            -d "$PAYLOAD")
+
+          STATUS=$(echo "$RESPONSE" | tail -n1)
+          BODY=$(echo "$RESPONSE" | sed '$d')
+
+          echo "Response: $BODY"
+
+          if [ "$STATUS" -ne 200 ]; then
+            echo "::error::$BODY"
+            exit 1
+          fi
