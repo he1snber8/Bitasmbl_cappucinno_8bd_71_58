@@ -12,4 +12,5 @@ interface Daghestan {
   twothreeyears: true;
   brader: true;
   options: true;
+  milesaway: true;
 }
