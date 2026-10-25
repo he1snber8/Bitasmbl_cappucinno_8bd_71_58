@@ -9,9 +9,9 @@
     {
       "file": "backend/src/models/Model.ts",
       "requirementId": 916,
-      "lastModified": "2026-10-25T16:15:51.251Z",
+      "lastModified": "2026-10-25T16:36:52.382Z",
       "activity": {
-        "idleBreaks": 2,
+        "idleBreaks": 3,
         "intervalSamples": [
           {
             "interval": 0,
@@ -75,6 +75,48 @@
               "linesDeleted": 0
             },
             "interval": 303
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 969
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 226
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 0
+            },
+            "interval": 10
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 0
+            },
+            "interval": 6
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 0
+            },
+            "interval": 13
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 0
+            },
+            "interval": 34
           }
         ],
         "medianEditIntervalSec": 29

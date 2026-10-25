@@ -10,4 +10,5 @@ interface CapucinnoBitch {
   milk: true;
   espresso: true;
   latteArt: true;
+  twothreeyears: true;
 }
