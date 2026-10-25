@@ -30,4 +30,6 @@ interface GotTheseOtherBitchesShook {
   badbitch: true;
   whataboutus: string;
   onmyway: true;
+  anymore?: boolean;
+  destiable: true;
 }
