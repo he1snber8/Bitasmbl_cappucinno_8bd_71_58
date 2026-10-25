@@ -23,4 +23,5 @@ interface GotTheseOtherBitchesShook {
   huh: true;
   chatgbt: string;
   vavaviva: string;
+  vavaviva2: string;
 }
