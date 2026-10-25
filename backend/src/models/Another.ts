@@ -11,4 +11,5 @@ interface Daghestan {
 interface Daghestan {
   twothreeyears: true;
   brader: true;
+  options: true;
 }
