@@ -3,85 +3,29 @@
   "projectApplicationId": 71,
   "requirementId": 916,
   "files": [
-    "backend/src/models/Another.ts"
+    "backend/src/models/Model2.ts"
   ],
   "activityMeta": [
     {
-      "file": "backend/src/models/Another.ts",
+      "file": "backend/src/models/Model2.ts",
       "requirementId": 916,
-      "lastModified": "2026-10-25T16:53:04.473Z",
+      "lastModified": "2026-10-25T17:02:46.120Z",
       "activity": {
-        "idleBreaks": 1,
+        "idleBreaks": 0,
         "intervalSamples": [
           {
             "interval": 0,
             "diffStats": {
-              "linesAdded": 10,
+              "linesAdded": 18,
               "linesDeleted": 0
             }
-          },
-          {
-            "diffStats": {
-              "linesAdded": 10,
-              "linesDeleted": 0
-            },
-            "interval": 10
-          },
-          {
-            "diffStats": {
-              "linesAdded": 10,
-              "linesDeleted": 0
-            },
-            "interval": 8
-          },
-          {
-            "diffStats": {
-              "linesAdded": 10,
-              "linesDeleted": 0
-            },
-            "interval": 39
-          },
-          {
-            "diffStats": {
-              "linesAdded": 10,
-              "linesDeleted": 0
-            },
-            "interval": 9
-          },
-          {
-            "diffStats": {
-              "linesAdded": 5,
-              "linesDeleted": 1
-            },
-            "interval": 529
-          },
-          {
-            "diffStats": {
-              "linesAdded": 4,
-              "linesDeleted": 0
-            },
-            "interval": 10
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 24
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 35
           }
         ],
-        "medianEditIntervalSec": 10
+        "medianEditIntervalSec": 0
       },
       "sourceHints": {
         "possiblePaste": false,
-        "suspiciousJump": true
+        "suspiciousJump": false
       }
     }
   ]
