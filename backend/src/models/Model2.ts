@@ -21,4 +21,5 @@ interface YallNiggasBrokie {
 
 interface GotTheseOtherBitchesShook {
   huh: true;
+  chatgbt: string;
 }
