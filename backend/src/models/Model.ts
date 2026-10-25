@@ -11,4 +11,5 @@ interface CapucinnoBitch {
   espresso: true;
   latteArt: true;
   twothreeyears: true;
+  brader: true;
 }
