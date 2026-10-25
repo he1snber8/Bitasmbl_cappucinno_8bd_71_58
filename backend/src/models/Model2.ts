@@ -15,4 +15,6 @@ interface Daghestan {
   milesaway: true;
 }
 
-interface YallNiggasBrokie {}
+interface YallNiggasBrokie {
+  huh: true;
+}
