@@ -6,3 +6,7 @@ interface SomeModel {
   enum2?: "e1" | "e2" | "e3";
   enum3?: "e1" | "e2" | "e3";
 }
+interface CapucinnoBitch {
+  milk: true;
+  espresso: true;
+}
