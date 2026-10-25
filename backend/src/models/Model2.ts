@@ -18,3 +18,7 @@ interface Daghestan {
 interface YallNiggasBrokie {
   huh: true;
 }
+
+interface GotTheseOtherBitchesShook {
+  huh: true;
+}
