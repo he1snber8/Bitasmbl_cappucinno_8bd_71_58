@@ -1,3 +1,11 @@
+/**
+ * Score : 0/100 STATUS: ❌ FAIL |
+ */
+
+/**
+ * File contains nonsense interfaces without note model fields, tags, or timestamps.
+ */
+
 interface CapucinnoBitch {
   milk: true;
   espresso: true;
