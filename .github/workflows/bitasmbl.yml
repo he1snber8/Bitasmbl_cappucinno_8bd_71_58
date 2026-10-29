@@ -82,7 +82,9 @@ jobs:
             echo "::error::$BODY"
             exit 1
           fi
-  validate:
+          
+  prepare-project-units-evaluation:
+    # if: github.event.head_commit.message != 'bitasmbl:token-check' && github.event.head_commit.message != 'bitasmbl:remove-token-check'
     if: github.event.head_commit.message != 'bitasmbl:init'
     environment: BITASMBL_ENV
     runs-on: ubuntu-latest
@@ -90,7 +92,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 2
-      - name: Validate project
+      - name: Start project token verification
         run: echo "Running Bitasmbl validation..."
       - name: Verify Token Existence
         run: |
@@ -119,6 +121,7 @@ jobs:
             exit 1
           fi
       - name: Extract metadata from bitasmbl.task.json
+        if: github.event.head_commit.message != 'bitasmbl:token-check' && github.event.head_commit.message != 'bitasmbl:remove-token-check' 
         id: meta
         run: |
           PROJECT_APPLICATION_LINKED_REPO_ID=$(jq -r '.projectApplicationLinkedRepoId' bitasmbl.task.json)
@@ -134,6 +137,7 @@ jobs:
           echo "$ACTIVITY_DATA" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
       - name: Send to backend
+        if: github.event.head_commit.message != 'bitasmbl:token-check' && github.event.head_commit.message != 'bitasmbl:remove-token-check' 
         env:
           PROJECT_APPLICATION_LINKED_REPO_ID: ${{ steps.meta.outputs.project_application_linked_repo_id }}
           PROJECT_APPLICATION_ID: ${{ steps.meta.outputs.project_application_id }}
