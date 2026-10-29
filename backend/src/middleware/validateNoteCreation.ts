@@ -3,7 +3,7 @@ import { Request, Response, NextFunction } from "express";
 export function validateNoteCreation(
   req: Request,
   res: Response,
-  next: NextFunction,
+  next?: NextFunction,
 ) {
   const { title, content, tags } = req.body;
 

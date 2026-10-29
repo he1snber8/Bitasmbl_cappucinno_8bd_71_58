@@ -3,7 +3,7 @@ import { Request, Response, NextFunction } from "express";
 export function validateNoteFilters(
   req: Request,
   res: Response,
-  next: NextFunction,
+  next?: NextFunction,
 ) {
   const { search, tags, archived } = req.query;
 

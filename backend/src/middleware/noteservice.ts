@@ -12,7 +12,7 @@ export interface Note {
 interface NoteFilters {
   search?: string;
   tags?: string[];
-  archived?: boolean;
+  archived: boolean;
 }
 
 export function filterNotes(notes: Note[], filters: NoteFilters): Note[] {
