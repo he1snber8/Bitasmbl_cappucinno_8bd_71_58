@@ -7,24 +7,22 @@ export function validateNoteFilters(
 ) {
   const { search, tags, archived } = req.query;
 
-  if (search !== undefined && typeof search !== "string") {
+  if (search !== undefined && (typeof search !== "string" || !search.trim())) {
     return res.status(400).json({ error: "Invalid search" });
   }
 
-  if (search !== undefined && search.trim().length === 0) {
-    return res.status(400).json({ error: "Search cannot be empty" });
-  }
+  if (tags !== undefined) {
+    const values = Array.isArray(tags) ? tags : [tags];
 
-  if (tags !== undefined && typeof tags !== "string" && !Array.isArray(tags)) {
-    return res.status(400).json({ error: "Invalid tags" });
-  }
-
-  if (Array.isArray(tags) && !tags.every((tag) => typeof tag === "string")) {
-    return res.status(400).json({ error: "Invalid tags" });
-  }
-
-  if (typeof tags === "string" && tags.split(",").some((tag) => !tag.trim())) {
-    return res.status(400).json({ error: "Invalid tags format" });
+    if (
+      !values.every(
+        (tag) =>
+          typeof tag === "string" &&
+          tag.split(",").every((value) => value.trim().length > 0),
+      )
+    ) {
+      return res.status(400).json({ error: "Invalid tags" });
+    }
   }
 
   if (archived !== undefined && archived !== "true" && archived !== "false") {
