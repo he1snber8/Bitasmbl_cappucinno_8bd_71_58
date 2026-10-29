@@ -1,0 +1,52 @@
+{
+  "projectName": "Notes API",
+  "projectOverview": "Build a notes backend using Express with REST routes, middleware, validation, note tagging, and search functionality.",
+  "techStackId": 121,
+  "projectId": 405,
+  "requirements": [
+    {
+      "id": 916,
+      "header": "Define note model",
+      "description": "Create the note data structure with title, body, tags, pinned state, archive state, and timestamps.",
+      "paths": [
+        "**/src/models/**",
+        "**/src/entities/**",
+        "**/src/types/**"
+      ]
+    },
+    {
+      "id": 917,
+      "header": "Build note routes",
+      "description": "Implement REST routes for creating, listing, updating, deleting, pinning, and archiving notes.",
+      "paths": [
+        "**/src/routes/**",
+        "**/src/controllers/**",
+        "**/src/api/**"
+      ]
+    },
+    {
+      "id": 918,
+      "header": "Implement note filtering",
+      "description": "Add middleware and service logic for validation, search, and tag filtering.",
+      "paths": [
+        "**/src/middleware/**",
+        "**/src/services/**",
+        "**/src/validators/**",
+        "**/src/utils/**"
+      ]
+    }
+  ],
+  "projectApplicationId": 71,
+  "currentWorkingProject": "https://github.com/he1snber8/Bitasmbl_cappucinno_8bd_71_58",
+  "domains": [
+    {
+      "name": "BackEnd",
+      "tech": [
+        "Express"
+      ],
+      "initializedLocally": false,
+      "repo": "https://github.com/he1snber8/Bitasmbl_cappucinno_8bd_71_58",
+      "localPath": "/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58"
+    }
+  ]
+}

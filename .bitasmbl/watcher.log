@@ -1,0 +1,1032 @@
+project root inside WATCH.JS: /Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model.ts',
+  command: 'git add -- backend/src/models/Model.ts',
+  escapedCommand: 'git add -- backend/src/models/Model.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.372417,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model.ts',
+  command: 'git add -- backend/src/models/Model.ts',
+  escapedCommand: 'git add -- backend/src/models/Model.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.121416,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model.ts',
+  command: 'git add -- backend/src/models/Model.ts',
+  escapedCommand: 'git add -- backend/src/models/Model.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.269458,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model.ts',
+  command: 'git add -- backend/src/models/Model.ts',
+  escapedCommand: 'git add -- backend/src/models/Model.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.140666,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model.ts',
+  command: 'git add -- backend/src/models/Model.ts',
+  escapedCommand: 'git add -- backend/src/models/Model.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 5.06725,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Another.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Another.ts',
+  command: 'git add -- backend/src/models/Another.ts',
+  escapedCommand: 'git add -- backend/src/models/Another.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.058,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Another.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Another.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Another.ts',
+  command: 'git add -- backend/src/models/Another.ts',
+  escapedCommand: 'git add -- backend/src/models/Another.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.056375,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Another.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Another.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Another.ts',
+  command: 'git add -- backend/src/models/Another.ts',
+  escapedCommand: 'git add -- backend/src/models/Another.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 3.683042,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Another.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Another.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Another.ts',
+  command: 'git add -- backend/src/models/Another.ts',
+  escapedCommand: 'git add -- backend/src/models/Another.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.228667,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Another.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.380083,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 7.601,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 3.929042,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 9.958916,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.293417,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.327459,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 11.596458,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.752709,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 3.915041,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 3.926959,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.422083,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
+Watcher Sync Error: ExecaError: Command failed with exit code 128: git add -- backend/src/models/Model2.ts
+
+fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+    at getFinalError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/final-error.js:6:9)
+    at makeError (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/return/result.js:108:16)
+    at getAsyncResult (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:168:4)
+    at handlePromise (file:///Users/lukakhaja/Desktop/bitasmbl-cli/node_modules/execa/lib/methods/main-async.js:151:17)
+    at async updateTaskManifest (file:///Users/lukakhaja/Desktop/bitasmbl-cli/dist/commands/watch.js:153:9) {
+  shortMessage: 'Command failed with exit code 128: git add -- backend/src/models/Model2.ts',
+  command: 'git add -- backend/src/models/Model2.ts',
+  escapedCommand: 'git add -- backend/src/models/Model2.ts',
+  cwd: '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58',
+  durationMs: 4.365375,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  isGracefullyCanceled: false,
+  isTerminated: false,
+  isMaxBuffer: false,
+  isForcefullyTerminated: false,
+  exitCode: 128,
+  stdout: '',
+  stderr: "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+    '\n' +
+    'Another git process seems to be running in this repository, e.g.\n' +
+    "an editor opened by 'git commit'. Please make sure all processes\n" +
+    'are terminated then try again. If it still fails, a git process\n' +
+    'may have crashed in this repository earlier:\n' +
+    'remove the file manually to continue.',
+  stdio: [
+    undefined,
+    '',
+    "fatal: Unable to create '/Users/lukakhaja/Bitasmbl_cappucinno_8bd_71_58/.git/index.lock': File exists.\n" +
+      '\n' +
+      'Another git process seems to be running in this repository, e.g.\n' +
+      "an editor opened by 'git commit'. Please make sure all processes\n" +
+      'are terminated then try again. If it still fails, a git process\n' +
+      'may have crashed in this repository earlier:\n' +
+      'remove the file manually to continue.'
+  ],
+  ipcOutput: [],
+  pipedFrom: []
+} backend/src/models/Model2.ts
